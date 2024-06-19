@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a25fbed1-13ab-4e5b-981f-c3f817f9a04c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/多变量线性回归实现.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/简单线性回归-通过面积预测房价.ipynb" afterDir="false" />
+    <list default="true" id="a25fbed1-13ab-4e5b-981f-c3f817f9a04c" name="Changes" comment="F1-分数计算公式。">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/f1Score.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/unsupervised_learning/f1Score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/多变量线性回归实现.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/superived_learning/多变量线性回归实现.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/简单线性回归-通过面积预测房价.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/superived_learning/简单线性回归-通过面积预测房价.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +27,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tiansang0824"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tiansang0824/machinelearning.git",
+    "accountId": "ecae16be-e6ba-4a83-9a88-92011de84199"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2gImMkbuAzc6yvrC9G5GnyMMu5n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,21 +55,25 @@
     "Python.demo01.executor": "Run",
     "Python.demo01_2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/dev/machinelearning_practice/pythonProject/src",
+    "last_opened_file_path": "D:/dev/machinelearning",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "通义灵码",
+    "settings.editor.selected.configurable": "project.propDebugger",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\machinelearning_practice\pythonProject\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\machinelearning\src\superived_learning" />
+      <recent name="D:\dev\machinelearning\src\unsupervised_learning" />
     </key>
   </component>
   <component name="RunManager" selected="Python.demo01_2">
@@ -120,8 +133,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
-        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
+        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
@@ -134,11 +147,25 @@
       <option name="presentableId" value="Default" />
       <updated>1715393420174</updated>
       <workItem from="1715393421282" duration="7466000" />
+      <workItem from="1718801671284" duration="1200000" />
     </task>
+    <task id="LOCAL-00001" summary="F1-分数计算公式。">
+      <option name="closed" value="true" />
+      <created>1718801709601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718801709601</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="F1-分数计算公式。" />
+    <option name="LAST_COMMIT_MESSAGE" value="F1-分数计算公式。" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$demo01_2.coverage" NAME="demo01_2 Coverage Results" MODIFIED="1715394515075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
